@@ -35,7 +35,7 @@ export const Social = styled.div`
 
 export const Container = styled.div`
 color: black;
-height:100vh;
+
 margin-top:30px;
 
 background: linear-gradient(to top, #d26c21, white);
