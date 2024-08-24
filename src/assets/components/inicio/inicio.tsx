@@ -42,7 +42,7 @@ return(
             bgColor='transparent'
             target={"_blank"}/>    
     </Social>
-               
+
         <div className='bio'>
             <div className="imgs">                    
                 <img className="perfil" src={Foto} width="250px" alt="" />
@@ -60,24 +60,7 @@ return(
             </div>                        
         
     
-        <motion.div
-            style={{
-            position: "absolute",
-            left: "100%",
-            transform: "translateX(-50%)",
-            top: "-60px",
-            }}
-            animate={{
-            top: ["0px", "55px"],
-            }}
-            transition={{
-            duration: 0.5,
-            repeat: Infinity,
-            repeatType: "reverse",
-            ease: "linear",
-            }}      >
-            <NavLink to="/#sobre"><img className="seta" src={Seta} alt="" /></NavLink>
-        </motion.div>
+        
 
         <NavLink to="https://drive.google.com/file/d/   1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link" target={"_blank"}>
             <div className="button" >

@@ -6,6 +6,7 @@ import styled from "styled-components";
 export const Habilidade = styled.div`
 margin:35px;
 
+
 h1{
     font-size:32px;
     color: #BFBFBF;

@@ -9,8 +9,11 @@ export const Social = styled.div`
     display:flex;
     flex-direction: row;
     margin-left:20px;
+    margin
    
-   
+   a{
+   margin:0; 
+   }
     .social-icon{
         &:hover{
             color:black;
@@ -35,6 +38,7 @@ color: black;
 heigth:100%vh;
 margin-top:30px;
 margin-bottom:160px;
+ background: linear-gradient(to top, #d26c21, white);
 
 
 @media (min-width: 800px) {
