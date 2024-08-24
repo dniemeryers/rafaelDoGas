@@ -1,6 +1,7 @@
 import {Container, Social} from './style';
 import { SocialIcon } from "react-social-icons";
 import Foto from '../../img/Rafael_Do_gas-removebg-preview.png'
+import Fundo from '../../img/fundo2-.png'
 import PDF from '../../img/pdf.png'
 
 import { Header } from '../header/header';
@@ -20,31 +21,12 @@ return(
     <>  
     <Header/>  
     <Container> 
-    <Social>
-        <SocialIcon className='social-icon' url="https://www.linkedin.com/in/diego-niemeyer/"
-            style={{width: 50, height: 50}}
-            fgColor='black'
-            bgColor='transparent'
-            target={"_blank"}/>
-        <SocialIcon url="https://github.com/dniemeryers"
-        style={{width: 50, height: 50}}
-            fgColor='black'
-            bgColor='transparent'
-            target={"_blank"}/>
-        <SocialIcon url="mailto:dniemeyers@gmail.com"
-         style={{width: 50, height: 50}}
-            fgColor='black'
-            bgColor='transparent'
-            target={"_blank"}/>    
-        <SocialIcon url="https://api.whatsapp.com/send?phone=5521974112744"
-        style={{width: 50, height: 50}}
-            fgColor='black'
-            bgColor='transparent'
-            target={"_blank"}/>    
-    </Social>
+   
+      
 
         <div className='bio'>
-            <div className="imgs">                    
+            <div className="imgs"> 
+                <img className="perfil2" src={Fundo} alt="" />                   
                 <img className="perfil" src={Foto} width="250px" alt="" />
             </div>
                 <div className='descricao'>

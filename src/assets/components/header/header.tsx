@@ -39,6 +39,28 @@ export function Header() {
              }}>
         <h1>Rafael do Gás</h1>
         </motion.div>
+        <Social>
+        <SocialIcon className='social-icon' url="https://www.linkedin.com/in/diego-niemeyer/"
+            style={{width: 40, height: 40}}
+            fgColor='#ED6B21'
+            bgColor='transparent'
+            target={"_blank"}/>
+        <SocialIcon url="https://github.com/dniemeryers"
+         style={{width: 40, height: 40}}
+           fgColor='#ED6B21'
+            bgColor='transparent'
+            target={"_blank"}/>
+        <SocialIcon url="mailto:dniemeyers@gmail.com"
+          style={{width: 40, height: 40}}
+            fgColor='#ED6B21'
+            bgColor='transparent'
+            target={"_blank"}/>    
+        <SocialIcon url="https://api.whatsapp.com/send?phone=5521974112744"
+         style={{width: 40, height: 40}}
+           fgColor='#ED6B21'
+            bgColor='transparent'
+            target={"_blank"}/>    
+    </Social>
        {/*} <div className="menu">
           <input type="checkbox" id="checkbox-menu"  checked={isMenuOpen} onChange={handleMenuClick} />
           <label style={{zIndex: '1'}} htmlFor="checkbox-menu">

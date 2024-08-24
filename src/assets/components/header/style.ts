@@ -1,6 +1,34 @@
 import React from 'react';
 import styled from "styled-components"; 
 
+export const Social = styled.div`
+
+    display:flex;
+    flex-direction: row;
+    margin-left:5px;
+    
+   
+   a{
+   margin:0; 
+   }
+    .social-icon{
+        &:hover{
+            color:black;
+        }
+    }
+    @media (min-width: 800px) {
+       
+
+    }
+.social-icon{
+    width:5px;
+    border: solid 1px #ED6B21;
+    border-radius: 50%;
+    margin:10px 0 0 5px;
+}
+    
+`
+
 export const Container = styled.div`
 position:fixed;
 top:0;
@@ -49,7 +77,7 @@ h1{
    display:flex;
    
    justify-content:space-between;
-   margin:0 40px 0px 0;
+   margin:0 20px 0px 0;
    
 
      
@@ -211,17 +239,5 @@ img{
 }
 
 `
-export const Social = styled.div`
-display:flex;
-width:100%;
-margin-left:-10px;
-position:absolute;
 
-justify-content:space-around;
-
-.ic{
-  border:none;
-}
-
-`
 

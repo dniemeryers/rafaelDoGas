@@ -141,7 +141,7 @@ h2{
 .imgs{
    display:flex;
    flex-direction:column;
-   margin:auto;
+    margin:0
    
 }
 .nome{
@@ -161,11 +161,13 @@ p{
 }
 .perfil{   
      object-fit: cover; 
-  object-position: 0 -45px; 
-    border-radius: ;
+     object-position: 0 -65px; 
+     border-radius: ;
+     z-index: 10;
     
     width:100%;
     margin:auto;
+    margin-top:-168px;
 
     @media (min-width: 800px) {
        
@@ -174,6 +176,29 @@ p{
 
     }
 }
+
+.perfil2{   
+     object-fit: cover; 
+     z-index: 1;
+     height:280px;
+
+    opacity: 0.5;
+     
+        
+    width:100%;
+    margin-bottom:0;
+    margin-top: 20px;
+    margin:auto;
+
+    @media (min-width: 800px) {
+       
+        background-color:transparent;
+        width:350px;
+
+    }
+}  
+
+
 .pdf{
     width:35px;
     margin-right:10px;
