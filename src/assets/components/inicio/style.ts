@@ -9,7 +9,7 @@ export const Social = styled.div`
     display:flex;
     flex-direction: row;
     margin-left:20px;
-    margin
+    
    
    a{
    margin:0; 
@@ -35,10 +35,10 @@ export const Social = styled.div`
 
 export const Container = styled.div`
 color: black;
-heigth:100%vh;
+height:100vh;
 margin-top:30px;
-margin-bottom:160px;
- background: linear-gradient(to top, #d26c21, white);
+
+background: linear-gradient(to top, #d26c21, white);
 
 
 @media (min-width: 800px) {
@@ -50,20 +50,20 @@ margin-bottom:160px;
     width: 250px;
     height: 50px;    
     margin:auto;
-    margin-top:80px;
+    margin-top:30px;
     margin-bottom:250px;
     text-align:center;
-    color: black;
-    background-color:;  
+    color: #d26c21 ;
+    background-color:#23262f;  
     font-size:18px;
-    box-shadow: 0px 0px 10px 5px black;
+    box-shadow: 0px 0px 10px 5px  #d26c21;
     
     @media (min-width: 800px) {
         display:none;
     }
   }
 img{
-   
+    
     margin:auto;
     margin-left:-10px;
 }
