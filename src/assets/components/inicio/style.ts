@@ -160,7 +160,8 @@ p{
     margin-left:4px;
 }
 .perfil{   
-  
+     object-fit: cover; 
+  object-position: 0 -45px; 
     border-radius: ;
     
     width:100%;
