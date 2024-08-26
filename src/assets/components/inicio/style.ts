@@ -101,6 +101,13 @@ h2{
     margin-bottom:0;
     
 }
+
+.cidadao{
+margin:0;
+margin-top:-200px;
+}
+
+
 .bio{
     width:100%;
     display:flex;
@@ -115,17 +122,17 @@ h2{
 }
 .descricao{
     margin:auto;
+    margin-top:470px;
 
     @media (min-width: 800px) {
        margin-left:-50px;
 
     }
 }
-.helo{
-    display:flex;
+
 }
 #helo{
-    margin-left:-20px;
+    margin-left:;
     font-size:27px;
     
 }
@@ -139,9 +146,12 @@ h2{
 }
 
 .imgs{
+   position:fixed;
+   top:0;
    display:flex;
    flex-direction:column;
-    margin:0
+   margin:0
+   margin-top:-50px;
    
 }
 .nome{
@@ -156,8 +166,8 @@ h2{
     
 }
 p{
-    margin:0px;
-    margin-left:4px;
+    
+    margin:15px;
 }
 .perfil{   
      object-fit: cover; 
@@ -167,7 +177,7 @@ p{
     
     width:100%;
     margin:auto;
-    margin-top:-168px;
+    margin-top:-178px;
 
     @media (min-width: 800px) {
        
@@ -182,13 +192,13 @@ p{
      z-index: 1;
      height:280px;
 
-    opacity: 0.5;
+    opacity: 0.6;
      
         
     width:100%;
-    margin-bottom:0;
-    margin-top: 20px;
+    margin-bottom:0;    
     margin:auto;
+    margin-top: -35px;
 
     @media (min-width: 800px) {
        

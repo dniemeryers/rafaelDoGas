@@ -21,38 +21,35 @@ return(
     <>  
     <Header/>  
     <Container> 
-   
-      
-
         <div className='bio'>
             <div className="imgs"> 
                 <img className="perfil2" src={Fundo} alt="" />                   
                 <img className="perfil" src={Foto} width="250px" alt="" />
             </div>
                 <div className='descricao'>
-                    <div className='helo'>
-                    <div className='bolahelo'></div><p id='helo'>Olá</p>
-                    </div>
-                    <h2>Eu sou <p className='nome'>Rafael</p> do Gás</h2>
-                <h1>Candidato a vereador de Belford Roxo<Cursor cursorColor='black' /></h1>
-                            
-                
+                    <h2>Eu sou<p className='nome'>Rafael</p>do Gás</h2>
+                    <h1>Candidato a vereador de Belford Roxo<Cursor cursorColor='black' /></h1>              
                 </div>   
-
-            </div>                        
-        
-    
-        
-
-        <NavLink to="https://drive.google.com/file/d/   1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link" target={"_blank"}>
+        </div>                                
+        <NavLink to="https://drive.google.com/file/d/         1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link" target={"_blank"}>
             <div className="button" >
             <p className='curriculo'>PROPOSTA DE CAMPANHA</p><img className="pdf" src={PDF} width="30px" height='30px;' alt="" /></div>
         </NavLink>
-</Container>
 
-    
-    
+        <div>
+            <h1 className='cidadao'>CONHEÇA O CIDADÃO</h1>
+            <p>
+                Rafael Santos Soares, O Rafael do Gás é um professor, empresário da cidade de Belford Roxo e gestor público, nascido em 02 de maio de 1956 em Belford Roxo. De origem Humilde, Rafael do Gás e seu irmão Vitor foram criados pelos seus pais Antônio Soares e Rosimere da Conceição Santos Soares.
+                É Casado com a Gleice do Gás, com quem tem dois filhos, Arthur Nelson de 14 anos e Rafael Jr. de 06 anos.
+                Rafael do Gás é um defensor nato da importância do esporte como uma ferramenta que potencializa no desenvolvimento social, é um ativista das políticas públicas sociais.
+                Respita todas as religiões por acreditar que todos os caminhos levam a Deus.
+                Um trabalhador, determinado, constante e perseverante.
+            </p>
+        </div>
 
+        
+
+    </Container>
     </>
     )
 };
