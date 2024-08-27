@@ -30,6 +30,7 @@ export const Social = styled.div`
 `
 
 export const Container = styled.div`
+font-family: Arial, sans-serif;
 position:fixed;
 top:0;
 background-color: #23262f;

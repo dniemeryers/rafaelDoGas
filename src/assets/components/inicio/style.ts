@@ -88,13 +88,14 @@ img{
 }
 
 h1{
-    
+    font-family: Arial, sans-serif;
     font-size:2.2em;
     text-align:center;
     padding:0px;
     margin-top:0px;
 }
 h2{
+    font-family: Arial, sans-serif;
     font-size:1.8em;
     margin-top:0;
     color: black;
@@ -102,9 +103,59 @@ h2{
     
 }
 
+.containerCidadao{
+display:flex;
+flex-direction: row;
+}
+
 .cidadao{
+display:flex;
+color: #d26c21;
+font-size: 26px;
+text-align:start;
 margin:0;
-margin-top:-200px;
+justify-content: center;
+align-items: center;
+
+
+padding-left:20px;
+width: 75%;
+height: 40px;
+
+
+background-color: #23262f;
+
+}
+
+.azul{
+z-index:10;
+margin-left:-1px;
+width:2px;
+height:-2px;
+margin-top:-1px;
+
+border-top:0px;
+border-right:10px solid transparent;
+border-bottom:40px solid #23262f;
+  
+}
+
+.laranja{
+z-index:1;
+margin-left:-10px;
+width:8px;
+height:4px;
+margin-top:0px;
+
+border-top:0px;
+border-right:8px solid transparent;
+border-bottom: 30px solid #d26c21;
+}
+
+.textoCidadao{
+font-family: Arial, sans-serif;
+text-indent:30px;
+margin:15px;
 }
 
 
@@ -134,7 +185,6 @@ margin-top:-200px;
 #helo{
     margin-left:;
     font-size:27px;
-    
 }
  
 .bolahelo{
@@ -165,10 +215,7 @@ margin-top:-200px;
     display:flex;
     
 }
-p{
-    
-    margin:15px;
-}
+
 .perfil{   
      object-fit: cover; 
      object-position: 0 -65px; 
@@ -192,7 +239,6 @@ p{
      z-index: 1;
      height:280px;
 
-    opacity: 0.6;
      
         
     width:100%;
