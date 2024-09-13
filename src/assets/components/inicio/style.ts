@@ -51,7 +51,7 @@ background: linear-gradient(to top, #d26c21, white);
     height: 50px;    
     margin:auto;
     margin-top:30px;
-    margin-bottom:250px;
+    margin-bottom:50px;
     text-align:center;
     color: #d26c21 ;
     background-color:#23262f;  
@@ -202,6 +202,7 @@ margin:15px;
    flex-direction:column;
    margin:0
    margin-top:-50px;
+    z-index: 100;
    
 }
 .nome{

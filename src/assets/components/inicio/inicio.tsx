@@ -27,13 +27,14 @@ return(
                 <img className="perfil" src={Foto} width="250px" alt="" />
             </div>
                 <div className='descricao'>
-                    <h2>Eu sou<p className='nome'>Rafael</p>do Gás</h2>
+                    <h2>Eu sou <p className='nome'>Rafael</p> do Gás</h2>
                     <h1>Candidato a vereador de Belford Roxo</h1>              
                 </div>   
         </div>                                
         <NavLink to="" target={"_blank"}>
             <div className="button" >
-            <p className='curriculo'>PROPOSTA DE CAMPANHA</p><img className="pdf" src={PDF} width="30px" height='30px;' alt="" /></div>
+                <p className='curriculo'>PROPOSTA DE CAMPANHA</p><img className="pdf" src={PDF} width="30px" height='30px;' alt="" />
+            </div>
         </NavLink>
 
         <div>
