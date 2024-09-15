@@ -39,7 +39,7 @@ return(
 
         <div>
             <div className='containerCidadao'>
-                <h1 className='cidadao'>CONHEÇA O CIDADÃO</h1><div className='azul'></div><div className='laranja'></div>
+                <h1 className='cidadao'>CONHEÇA O CIDADÃO</h1><div className='azul'></div>
             </div>
             <p className='textoCidadao'>
                 Rafael Santos Soares, O Rafael do Gás é um professor, empresário da cidade de Belford Roxo e gestor público, nascido em 02 de maio de 1956 em Belford Roxo. De origem Humilde, Rafael do Gás e seu irmão Vitor foram criados pelos seus pais Antônio Soares e Rosimere da Conceição Santos Soares.
@@ -56,6 +56,9 @@ return(
             <p className='textoCidadao'>
                 Um trabalhador, determinado, constante e perseverante.
             </p>
+        </div>
+        <div className='containerCidadao2'>
+            <h1 className='cidadao2'>Todos os direitos reservados www.rafaeldogas.com.br</h1>
         </div>
 
         

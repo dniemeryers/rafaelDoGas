@@ -40,23 +40,23 @@ export function Header() {
         <h1>Rafael do Gás</h1>
         </motion.div>
         <Social>
-        <SocialIcon className='social-icon' url="https://www.linkedin.com/in/diego-niemeyer/"
-            style={{width: 40, height: 40}}
+        <SocialIcon className='social-icon' url="https://www.instagram.com/rafaeldogasoficial86?igsh=MWptZzdjazA1eDZ0ag=="
+            style={{width: 35, height: 35}}
             fgColor='#ED6B21'
             bgColor='transparent'
             target={"_blank"}/>
-        <SocialIcon url="https://github.com/dniemeryers"
-         style={{width: 40, height: 40}}
+        <SocialIcon url="https://www.facebook.com/share/XbUUzx2fpbq42HVw/?mibextid=qi2Omg"
+        style={{width: 35, height: 35}}
            fgColor='#ED6B21'
             bgColor='transparent'
             target={"_blank"}/>
-        <SocialIcon url="mailto:dniemeyers@gmail.com"
-          style={{width: 40, height: 40}}
+        <SocialIcon url="mailto:contato@rafaeldogas.com.br"
+         style={{width: 35, height: 35}}
             fgColor='#ED6B21'
             bgColor='transparent'
             target={"_blank"}/>    
-        <SocialIcon url="https://api.whatsapp.com/send?phone=5521974112744"
-         style={{width: 40, height: 40}}
+        <SocialIcon url="mailto:dniemeyers@gmail.com"
+       style={{width: 35, height: 35}}
            fgColor='#ED6B21'
             bgColor='transparent'
             target={"_blank"}/>    

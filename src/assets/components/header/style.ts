@@ -2,10 +2,12 @@ import React from 'react';
 import styled from "styled-components"; 
 
 export const Social = styled.div`
-
+    z-index:4;
     display:flex;
     flex-direction: row;
-    margin-left:5px;
+    margin:0 0 0 5px 0;
+
+  
     
    
    a{
@@ -25,17 +27,26 @@ export const Social = styled.div`
     border: solid 1px #ED6B21;
     border-radius: 50%;
     margin:10px 0 0 5px;
+
+    @media (min-width: 400px) {
+       width: 45;
+       height: 45;
+
+    }
+
+  
 }
     
 `
 
 export const Container = styled.div`
+
 font-family: Arial, sans-serif;
 position:fixed;
 top:0;
 background-color: #23262f;
 box-shadow: 0px 0px 10px 5px black;
-z-index:1;
+z-index:5;
 color: #ED6B21;
 font-weight:bold;
 justify-content:space-betweem;
@@ -69,14 +80,17 @@ width:100%;
 }
 }
 h1{
-  margin:15px;
-  font-size:1.5rem;
+  margin: 15px 0 0 15px;
+  font-size:1.3rem;
+
+  
+
   
 }
 
 .icons{
    display:flex;
-   
+   height:55px;
    justify-content:space-between;
    margin:0 20px 0px 0;
    
@@ -192,6 +206,8 @@ a{
 }
 `
 export const Container2 = styled.div`
+
+z-index:4;
 color:#BFBFBF;
 heigth:500px;
 

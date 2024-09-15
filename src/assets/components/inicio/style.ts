@@ -92,20 +92,32 @@ h1{
     font-size:2.2em;
     text-align:center;
     padding:0px;
-    margin-top:0px;
+    margin:5px;
+    margin-top:15px;
+
 }
 h2{
     font-family: Arial, sans-serif;
     font-size:1.8em;
+    margin-left:10px;
     margin-top:0;
     color: black;
     margin-bottom:0;
+
     
 }
 
 .containerCidadao{
 display:flex;
 flex-direction: row;
+}
+
+.containerCidadao2{
+display:flex;
+flex-direction: row;
+width:100%;
+padding:0
+margin:0;
 }
 
 .cidadao{
@@ -127,8 +139,25 @@ background-color: #23262f;
 
 }
 
+.cidadao2{
+display:flex;
+color: #d26c21;
+font-size: 15px;
+
+margin:0;
+margin-top:20;
+padding:0;
+justify-content:center;
+align-items: center;
+width: 110%;
+height: 40px;
+
+background-color: #23262f;
+
+}
+
 .azul{
-z-index:10;
+z-index:1;
 margin-left:-1px;
 width:2px;
 height:-2px;
@@ -196,13 +225,14 @@ margin:15px;
 }
 
 .imgs{
+   z-index:2;
    position:fixed;
    top:0;
    display:flex;
    flex-direction:column;
    margin:0
    margin-top:-50px;
-    z-index: 100;
+   
    
 }
 .nome{
@@ -221,7 +251,7 @@ margin:15px;
      object-fit: cover; 
      object-position: 0 -65px; 
      border-radius: ;
-     z-index: 10;
+     z-index:4;
     
     width:100%;
     margin:auto;
@@ -237,7 +267,7 @@ margin:15px;
 
 .perfil2{   
      object-fit: cover; 
-     z-index: 1;
+     z-index: 4;
      height:280px;
 
      
