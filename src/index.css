@@ -5,6 +5,9 @@
 body{
     margin:0;
     padding:0;
+
+   
+
     ::-webkit-scrollbar-track {
         background-color: #F4F4F4;
     }
@@ -26,9 +29,8 @@ html{
     height: 100%;
     margin:0;
     padding:0;
-    background: linear-gradient(to top, #d26c21, white);
-    
-                                                                                                                                              background-repeat:no-repeat;
+   
+    background: linear-gradient(to top, #d26c21, white);                                                                         background-repeat:no-repeat;
    
 }
 
@@ -40,6 +42,7 @@ html{
     height: 90%;
     padding-left: 10px;
     
+    background: linear-gradient(to top, #d26c21, white);
     
   }
     @media screen and (max-width: 800px){

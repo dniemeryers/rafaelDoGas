@@ -39,6 +39,11 @@ export function Header() {
              }}>
         <h1>Rafael do Gás</h1>
         </motion.div>
+        <NavLink to="" target={"_blank"}>
+          <div className="button" >
+              <p className='curriculo'>PROPOSTA DE CAMPANHA</p><img className="pdf" src={PDF} width="30px" height='30px;' alt="" />
+          </div>
+        </NavLink>
         <Social>
         <SocialIcon className='social-icon' url="https://www.instagram.com/rafaeldogasoficial86?igsh=MWptZzdjazA1eDZ0ag=="
             style={{width: 35, height: 35}}

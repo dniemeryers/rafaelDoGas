@@ -52,23 +52,47 @@ font-weight:bold;
 justify-content:space-betweem;
 width:100%;
 
+.curriculo{
+   margin:auto;
+   font-weight:bold;
+}
+
+
+
+  .pdf{
+    width:20px;
+    height:20px;
+    margin-right:10px;
+  }
+
 .button {  
+
+  
   margin-top:12px;
   padding:0;
   display:flex;
-  width: 120px;
+  
+  
+  width: 200px;
   height: 30px;    
  
   text-align:center;
-  color: #fff;
+  color: #d26c21 ;
   font-size:12px;
-  background-color:rgba(179,179,179,0.4);
-  box-shadow: 0px 0px 10px 5px #FF0000;
+   background-color:#23262f;  
+  box-shadow: 0px 0px 10px 5px  #d26c21;
+
+     @media (max-width: 800px) {
+     display:none;
+     
+     }
 
   &:hover {
     scale:1.2;
     transform: scale(1.01);
   }
+
+
   .curriculo{
     display:flex;
     margin:auto;

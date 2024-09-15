@@ -10,6 +10,7 @@ export const Social = styled.div`
     flex-direction: row;
     margin-left:20px;
     
+    background: linear-gradient(to top, #d26c21, white);
    
    a{
    margin:0; 
@@ -34,12 +35,29 @@ export const Social = styled.div`
 
 
 export const Container = styled.div`
+
+
+height:100%;
 color: black;
 
-margin-top:30px;
+margin-top:0px;
 
-background: linear-gradient(to top, #d26c21, white);
+@media (max-width: 800px) {
 
+ background: linear-gradient(to top, #d26c21, white);     
+
+}
+
+.responsiv{
+
+
+
+        @media (min-width: 800px) {
+            display:flex;
+        }
+
+
+}
 
 @media (min-width: 800px) {
     margin-botton:50px;
@@ -95,22 +113,36 @@ h1{
     margin:5px;
     margin-top:15px;
 
+     @media (min-width: 800px) {
+         text-align:start;
+
+         }
+
 }
 h2{
     font-family: Arial, sans-serif;
     font-size:1.8em;
     margin-left:10px;
-    margin-top:0;
+    margin-top:10;
     color: black;
     margin-bottom:0;
-
-    
+   
 }
+
+
+
+
 
 .containerCidadao{
 display:flex;
 flex-direction: row;
+
+ @media (min-width: 800px) {
+         width:60%;
+
+         }
 }
+
 
 .containerCidadao2{
 display:flex;
@@ -118,6 +150,14 @@ flex-direction: row;
 width:100%;
 padding:0
 margin:0;
+
+      @media (min-width: 800px) {
+           
+        position: fixed;
+        bottom: 0;
+        left: 0;
+
+      }      
 }
 
 .cidadao{
@@ -154,6 +194,7 @@ height: 40px;
 
 background-color: #23262f;
 
+         
 }
 
 .azul{
@@ -181,10 +222,16 @@ border-right:8px solid transparent;
 border-bottom: 30px solid #d26c21;
 }
 
+
 .textoCidadao{
 font-family: Arial, sans-serif;
-text-indent:30px;
+text-indent:px;
 margin:15px;
+
+        @media (min-width: 800px) {
+        font-size:18px;
+
+        }
 }
 
 
@@ -194,6 +241,8 @@ margin:15px;
     flex-direction:column;
     margin:auto;
 
+   
+
     @media (min-width: 800px) {
         flex-direction:row;
 
@@ -202,10 +251,14 @@ margin:15px;
 }
 .descricao{
     margin:auto;
-    margin-top:470px;
+    margin-top:500px;
+    
+   
 
     @media (min-width: 800px) {
        margin-left:-50px;
+       margin-top:50px;
+       
 
     }
 }
@@ -260,7 +313,9 @@ margin:15px;
     @media (min-width: 800px) {
        
         background-color:transparent;
-        width:350px;
+        margin-left:px;
+         margin-top:60px;
+       
 
     }
 }
@@ -280,7 +335,9 @@ margin:15px;
     @media (min-width: 800px) {
        
         background-color:transparent;
-        width:350px;
+       
+        margin-left:10px;
+        display:none;
 
     }
 }  
